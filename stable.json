@@ -1,0 +1,14 @@
+{
+  "version": "1.2.0",
+  "pub_date": "2026-09-18T19:19:32Z",
+  "notes": "- Check a playlist for stitched audio, and replace what's broken\n- Withdrew the medium-hls download quality: it drifts beatgrids\n- Export a Setline set straight to rekordbox, no detour through Build\n- Type a track name to search Beatport, with cover art\n- A dropped Setline set now survives leaving the page",
+  "commit": "4470cc4291092513a45f287f8195cafd1687f7ba",
+  "platforms": {
+    "darwin": {
+      "url": "https://raw.githubusercontent.com/DODMax/track-studio-releases/main/releases/track-studio-1.2.0.zip",
+      "sha256": "a59ddf1b14fbd2d2471a7373019fa2351230daf74af58ecbdd3db219e5c96a6d",
+      "size": 253444,
+      "signature": "vlDx2BTa4GV6WbfjmFm6tKRXJNf8M4fJ4DDhqK8ZDPWhLIsDaTVmiuLEWY+xz+4q4y5p2kzXUyGBDoYWBaZ5Dw=="
+    }
+  }
+}

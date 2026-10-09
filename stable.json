@@ -1,14 +1,14 @@
 {
-  "version": "1.2.1",
-  "pub_date": "2026-10-09T12:30:30Z",
-  "notes": "- Library on an external drive: an unplugged drive no longer breaks Settings \u2014 the app names the drive, and reloads by itself when you plug it in\n- Incoming: one place to get tracks, say which playlist they're for, and send them to rekordbox\n- Spots downloads the collection already has, and keeps the longer edit when that's what arrived\n- Crates: gather tracks from any page, and get suggestions for what belongs with them\n- Hear a Beatport track before you buy it\n- Genres read from the files themselves, and pages that re-read them far less\n- Check for problems and its re-download now work, and a long check survives leaving the page",
-  "commit": "608bcde5b500fcf683f36afa3cf4ae8e05eea6ae",
+  "version": "1.3.0",
+  "pub_date": "2026-10-09T15:34:42Z",
+  "notes": "- Send to rekordbox keeps the whole playlist \u2014 importing over it no longer drops tracks, and it asks first if anything (a Tidal stream, say) can't come along\n- Your rekordbox order survives the round trip with new tracks at the end \u2014 or pick Spotify's order beside Send\n- Get a playlist's missing tracks in one sheet: matched on Beatport in seconds, with sleeves and previews, downloading as you go\n- Unsure matches wait for you, every version on offer to hear and pick\n- Fetches the extended mix, not the radio edit, and no longer re-downloads long versions you already own\n- The board: build a night with Setline right inside Track Studio (after a one-time reinstall on Python 3.13)",
+  "commit": "2893dfa7e048c34d6108d714b353322ab59f57c9",
   "platforms": {
     "darwin": {
-      "url": "https://raw.githubusercontent.com/DODMax/track-studio-releases/main/releases/track-studio-1.2.1.zip",
-      "sha256": "887cc483528756892aad73843e4f6a171e789e28d9b869ae656b0502d4887d2c",
-      "size": 404905,
-      "signature": "V/FYDoyQZyN0OgrxoEYQR4rDHUZmVmDWiDMtXzS1HoNlXtffeqMHYmXTXD6IT0+BGVAniottEdq7N80lEefLDA=="
+      "url": "https://raw.githubusercontent.com/DODMax/track-studio-releases/main/releases/track-studio-1.3.0.zip",
+      "sha256": "8d5b6d6970d1c94cd3db72434872f773802d063ca71a43a5abd80d425e04f8d9",
+      "size": 456816,
+      "signature": "MwfvhbOeKAkHGDj58wPmDbwk/M0Y5gCu0zSWnRfXJjubcR/DxYVlW1LS+7ni1RjAUM7D8PT6qglSu20jdaEIBg=="
     }
   }
 }

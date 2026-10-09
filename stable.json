@@ -1,14 +1,14 @@
 {
-  "version": "1.2.0",
-  "pub_date": "2026-09-18T19:19:32Z",
-  "notes": "- Check a playlist for stitched audio, and replace what's broken\n- Withdrew the medium-hls download quality: it drifts beatgrids\n- Export a Setline set straight to rekordbox, no detour through Build\n- Type a track name to search Beatport, with cover art\n- A dropped Setline set now survives leaving the page",
-  "commit": "4470cc4291092513a45f287f8195cafd1687f7ba",
+  "version": "1.2.1",
+  "pub_date": "2026-10-09T12:30:30Z",
+  "notes": "- Library on an external drive: an unplugged drive no longer breaks Settings \u2014 the app names the drive, and reloads by itself when you plug it in\n- Incoming: one place to get tracks, say which playlist they're for, and send them to rekordbox\n- Spots downloads the collection already has, and keeps the longer edit when that's what arrived\n- Crates: gather tracks from any page, and get suggestions for what belongs with them\n- Hear a Beatport track before you buy it\n- Genres read from the files themselves, and pages that re-read them far less\n- Check for problems and its re-download now work, and a long check survives leaving the page",
+  "commit": "608bcde5b500fcf683f36afa3cf4ae8e05eea6ae",
   "platforms": {
     "darwin": {
-      "url": "https://raw.githubusercontent.com/DODMax/track-studio-releases/main/releases/track-studio-1.2.0.zip",
-      "sha256": "a59ddf1b14fbd2d2471a7373019fa2351230daf74af58ecbdd3db219e5c96a6d",
-      "size": 253444,
-      "signature": "vlDx2BTa4GV6WbfjmFm6tKRXJNf8M4fJ4DDhqK8ZDPWhLIsDaTVmiuLEWY+xz+4q4y5p2kzXUyGBDoYWBaZ5Dw=="
+      "url": "https://raw.githubusercontent.com/DODMax/track-studio-releases/main/releases/track-studio-1.2.1.zip",
+      "sha256": "887cc483528756892aad73843e4f6a171e789e28d9b869ae656b0502d4887d2c",
+      "size": 404905,
+      "signature": "V/FYDoyQZyN0OgrxoEYQR4rDHUZmVmDWiDMtXzS1HoNlXtffeqMHYmXTXD6IT0+BGVAniottEdq7N80lEefLDA=="
     }
   }
 }
